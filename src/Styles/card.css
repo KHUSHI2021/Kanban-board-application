@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%; 
+}
+.card {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.card .card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .card-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 4.5px;
+  justify-content: space-between;
+}
+
+.card .card-header p {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #858585;
+  margin-right: 9px;
+  font-weight: normal;
+}
+
+.card .card-title {
+  margin-bottom: 10px;
+}
+
+.card .card-title p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333030;
+  font-weight: normal;
+}
+
+.card .card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card .card-footer .icons {
+  height: 20px !important;
+}
+
+.card .card-footer .feature-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b9b3b38e;
+  width: fit-content;
+  border-radius: 3px;
+  padding: 0px 3px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.card .card-footer .feature-container i {
+  color: #a19c9c;
+  padding: 2px 0px;
+}
+
+.card .card-footer .feature-container .alert-icon {
+  width: 9px;
+  height: 8px;
+  background-color: #494747b8;
+  border-radius: 50%;
+}
+
+.card .card-footer .feature-container .feature-request {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #5d5d5db8;
+  padding: 2px 3px;
+}
+
+.status-heading {
+  display: flex;
+}
+
+.status-heading p {
+  padding-left: 3px;
+}
+
+#todo {
+  color: #888484;
+}
+
+#progress {
+  color: rgba(252, 206, 3, 0.699);
+}
+
+#done {
+  color: rgba(79, 39, 210, 0.71);
+}
+
+#cancel {
+  color: #8a8585cd;
+}
+
+#backlog {
+  color: rgb(80, 55, 206);
+}
+
+.icon-text-priority {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text-priority .text {
+  font-weight: normal;
+  color: black;
+  font-size: 17px;
+  padding-right: 12px;
+  margin-bottom: -2px;
+}
+
+.icon-text-priority i {
+  font-size: 22px;
+}
+
+#noPriority {
+  color: #8d8888;
+  margin-right: 12px;
+}
+
+#low {
+  color: #989a9b;
+  margin-bottom: 2px;
+}
+
+#medium, #high {
+  color: #8f8787;
+  margin-right: 6px;
+}
+
+#urgent {
+  color: rgb(247, 139, 15);
+  margin-right: 12px;
+}
+
+.icon-text-priority .count {
+  margin-bottom: -2px;
+}

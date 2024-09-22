@@ -1,0 +1,82 @@
+.Navbar {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    padding: 10px 30px;
+    zoom: 0.9;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #f7f7f7;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.dropdown-btn i {
+    color: #3f3e3e;
+    font-size: 16px;
+}
+
+.dropdown-btn div {
+    font-size: 14px;
+    margin-bottom: -1px;
+    padding: 0 5px;
+}
+
+.dropdown-btn:hover {
+    background-color: #ebebeb;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    z-index: 1;
+    top: 125%;
+    left: 0;
+    width: 310px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 8px;
+}
+
+.Grouping, .Ordering {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Grouping label, .Ordering label {
+    font-size: 14px;
+    color: #8a8585;
+    font-weight: 600;
+}
+
+.Grouping select, .Ordering select {
+    border-radius: 0px !important;
+    padding: 3px;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+}
+
+.dropdown-content div {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
